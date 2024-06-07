@@ -3,7 +3,7 @@
     "env": {
       "NEXT_IGNORE_TS_ERRORS": "true",
 
-     "src": "build/server.js", "use": "@vercel/node",
+     "src": "build/server.js", "use": "@vercel/node"
 
 
     }
