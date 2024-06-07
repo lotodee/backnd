@@ -1,16 +1,15 @@
 {
-  "build": {
-    "env": {
-      "NEXT_IGNORE_TS_ERRORS": "true"
-
-
-
-
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
     }
-
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/server.ts" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.ts"
+    }
   ]
-
 }
