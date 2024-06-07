@@ -1,9 +1,9 @@
 {
   "build": {
     "env": {
-      "NEXT_IGNORE_TS_ERRORS": "true",
+      "NEXT_IGNORE_TS_ERRORS": "true"
 
-     "src": "build/server.js", "use": "@vercel/node"
+
 
 
     }
