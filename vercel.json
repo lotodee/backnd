@@ -6,6 +6,9 @@
 
 
 
+    },
+    "config": {
+      "distDir": "build"
     }
   },
   "rewrites": [
