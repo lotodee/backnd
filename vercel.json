@@ -11,9 +11,6 @@
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "/server.ts" }
-  ],
+  ]
 
-  "config": {
-    "distDir": "build"
-  }
 }
